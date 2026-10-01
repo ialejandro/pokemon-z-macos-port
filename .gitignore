@@ -1,0 +1,8 @@
+# docs branch: only the site files. The game folder stays untracked.
+/*
+!/.gitignore
+!/.github/
+!/_config.yml
+!/index.md
+!/en.md
+!/assets/

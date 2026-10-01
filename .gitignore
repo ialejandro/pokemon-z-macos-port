@@ -1,0 +1,22 @@
+# Whitelist: ignore everything, then allow only the macOS port files.
+# The game itself (Audio, Graphics, PBS, Data...) belongs to its author and stays out.
+/*
+!/.gitignore
+!/README.md
+!/README.en.md
+!/LICENSE
+!/Pokemon Z.app/
+!/mkxp.json
+!/macos_compat.rb
+!/cheats.rb
+!/Game
+!/Data/
+/Data/*
+!/Data/Scripts.rxdata
+
+.DS_Store
+
+# Saves: never upload them (already covered by /*, listed so nobody removes it by accident)
+/Game*.rxdata
+/LastSave.dat
+*.rxdata.bak

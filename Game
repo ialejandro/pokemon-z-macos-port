@@ -1,0 +1,3 @@
+#!/bin/sh
+# Starts the macOS build. The in-game VSync option calls this to restart.
+exec open -n "$(dirname "$0")/Pokemon Z.app"

@@ -2,12 +2,13 @@
 
 [English](README.en.md)
 
-Repositorio: <https://github.com/ialejandro/pokemon-z-macos-port> · Documentación: <https://ialejandro.github.io/pokemon-z-macos-port/>
+* Repositorio: <https://github.com/ialejandro/pokemon-z-macos-port>
+* Documentación: <https://ialejandro.github.io/pokemon-z-macos-port/>
 
 Port no oficial para macOS de **Pokémon Z V2.18**, el fangame de EricLostie. Ejecuta el juego original de Windows en Macs con Apple Silicon gracias a [mkxp-z](https://github.com/mkxp-z/mkxp-z) y a un par de scripts de Ruby que suplen lo que la versión de Windows espera del sistema.
 
 > [!IMPORTANT]
-> No tengo ninguna relación ni vínculo con EricLostie, el autor de Pokémon Z, y este proyecto no cuenta con su respaldo. No genera ningún beneficio económico ni lo hará. El juego, su historia, gráficos, música y scripts son suyos. Descarga el juego y sigue las novedades en su página oficial: <https://EricLostiegames.blogspot.com/p/pokemon-z.html>
+> No tengo ninguna relación ni vínculo con EricLostie, el autor de Pokémon Z, y este proyecto no cuenta con su respaldo. No genera ningún beneficio económico ni lo hará. El juego, su historia, gráficos, música y scripts son suyos. Descarga el juego y sigue las novedades en su página oficial: <https://lostiefangames.blogspot.com/p/pokemon-z.html>
 >
 > Pokémon es © Nintendo, Game Freak, Creatures y The Pokémon Company.
 
@@ -29,7 +30,7 @@ Si usas un macOS anterior o un Mac con Intel, tendrás que recompilar mkxp-z tú
 
 ## Instalación
 
-1. Descarga Pokémon Z V2.18 desde la [página del autor](https://EricLostiegames.blogspot.com/p/pokemon-z.html) y descomprímelo.
+1. Descarga Pokémon Z V2.18 desde la [página del autor](https://lostiefangames.blogspot.com/p/pokemon-z.html) y descomprímelo.
 2. Copia todo el contenido de este repositorio dentro de la carpeta del juego y reemplaza los ficheros cuando te lo pida: `Pokemon Z.app`, `Game`, `mkxp.json`, `macos_compat.rb`, `cheats.rb` y `Data/Scripts.rxdata`.
 3. La app no está notarizada, así que macOS la bloqueará la primera vez. Haz clic derecho sobre `Pokemon Z.app` y elige **Abrir**, o ejecuta:
 

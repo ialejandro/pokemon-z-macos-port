@@ -2,12 +2,13 @@
 
 [Español](README.md)
 
-Repository: <https://github.com/ialejandro/pokemon-z-macos-port> · Docs: <https://ialejandro.github.io/pokemon-z-macos-port/en.html>
+* Repository: <https://github.com/ialejandro/pokemon-z-macos-port>
+* Docs: <https://ialejandro.github.io/pokemon-z-macos-port/en.html>
 
 An unofficial macOS port of **Pokémon Z V2.18**, the fan game by EricLostie. It runs the original Windows game on Apple Silicon Macs through [mkxp-z](https://github.com/mkxp-z/mkxp-z), with a few small Ruby scripts that cover what the Windows build expects from the system.
 
 > [!IMPORTANT]
-> I have no relation or connection with EricLostie, the author of Pokémon Z. This project is not endorsed by them. It makes no money and never will. The game, its story, graphics, music and scripts are theirs. Get the game, news and support from the official page: <https://EricLostiegames.blogspot.com/p/pokemon-z.html>
+> I have no relation or connection with EricLostie, the author of Pokémon Z. This project is not endorsed by them. It makes no money and never will. The game, its story, graphics, music and scripts are theirs. Get the game, news and support from the official page: <https://lostiefangames.blogspot.com/p/pokemon-z.html>
 >
 > Pokémon is © Nintendo, Game Freak, Creatures and The Pokémon Company.
 
@@ -29,7 +30,7 @@ If you are on an older macOS or an Intel Mac, you will need to rebuild mkxp-z yo
 
 ## Installing
 
-1. Download Pokémon Z V2.18 from the [author's page](https://EricLostiegames.blogspot.com/p/pokemon-z.html) and unzip it.
+1. Download Pokémon Z V2.18 from the [author's page](https://lostiefangames.blogspot.com/p/pokemon-z.html) and unzip it.
 2. Copy everything from this repository into the game folder, replacing files when asked: `Pokemon Z.app`, `Game`, `mkxp.json`, `macos_compat.rb`, `cheats.rb` and `Data/Scripts.rxdata`.
 3. The app is not notarized, so macOS will block it the first time. Either right-click `Pokemon Z.app` and choose **Open**, or run:
 

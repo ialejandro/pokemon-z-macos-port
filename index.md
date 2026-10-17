@@ -5,19 +5,21 @@ lang: es
 
 # Pokémon Z para macOS
 
-[English](en.md)
+[English](README.en.md)
 
-Repositorio: <https://github.com/ialejandro/pokemon-z-macos-port> · Documentación: <https://ialejandro.github.io/pokemon-z-macos-port/>
+* Repositorio: <https://github.com/ialejandro/pokemon-z-macos-port>
+* Documentación: <https://ialejandro.github.io/pokemon-z-macos-port/>
 
-Port no oficial para macOS de **Pokémon Z V2.18**, el fangame de Lostiefan. Ejecuta el juego original de Windows en Macs con Apple Silicon gracias a [mkxp-z](https://github.com/mkxp-z/mkxp-z) y a un par de scripts de Ruby que suplen lo que la versión de Windows espera del sistema.
+Port no oficial para macOS de **Pokémon Z V2.18**, el fangame de EricLostie. Ejecuta el juego original de Windows en Macs con Apple Silicon gracias a [mkxp-z](https://github.com/mkxp-z/mkxp-z) y a un par de scripts de Ruby que suplen lo que la versión de Windows espera del sistema.
 
-> **Importante.** No tengo ninguna relación ni vínculo con Lostiefan, el autor de Pokémon Z, y este proyecto no cuenta con su respaldo. No genera ningún beneficio económico ni lo hará. El juego, su historia, gráficos, música y scripts son suyos. Descarga el juego y sigue las novedades en su página oficial: <https://lostiefangames.blogspot.com/p/pokemon-z.html>
+> [!IMPORTANT]
+> No tengo ninguna relación ni vínculo con EricLostie, el autor de Pokémon Z, y este proyecto no cuenta con su respaldo. No genera ningún beneficio económico ni lo hará. El juego, su historia, gráficos, música y scripts son suyos. Descarga el juego y sigue las novedades en su página oficial: <https://lostiefangames.blogspot.com/p/pokemon-z.html>
 >
 > Pokémon es © Nintendo, Game Freak, Creatures y The Pokémon Company.
 
 Este repositorio **no incluye el juego**. Solo contiene los ficheros necesarios para jugar tu propia copia de `Pokémon Z V2.18` en un Mac.
 
-<video src="assets/gameplay.mp4" controls muted playsinline preload="metadata" style="width:100%"></video>
+▶ [Vídeo del juego funcionando en macOS](https://ialejandro.github.io/pokemon-z-macos-port/)
 
 ## Compatibilidad
 
@@ -177,6 +179,6 @@ brew autoremove                                             # quita ninja y m4 s
 
 ## Licencia
 
-Los ficheros escritos para este port (`macos_compat.rb`, `cheats.rb`, `Game`, `mkxp.json` y la documentación) están bajo [licencia MIT](https://github.com/ialejandro/pokemon-z-macos-port/blob/main/LICENSE).
+Los ficheros escritos para este port (`macos_compat.rb`, `cheats.rb`, `Game`, `mkxp.json` y la documentación) están bajo [licencia MIT](LICENSE).
 
-Esa licencia no cubre Pokémon Z ni sus scripts (son de Lostiefan), Pokémon (Nintendo, Game Freak, Creatures, The Pokémon Company), ni mkxp-z y sus librerías dentro de `Pokemon Z.app`, que mantienen sus propias licencias. mkxp-z es GPLv2+, y como esta compilación incluye OpenSSL, el binario queda bajo GPLv3. Su código fuente está en <https://github.com/mkxp-z/mkxp-z>.
+Esa licencia no cubre Pokémon Z ni sus scripts (son de EricLostie), Pokémon (Nintendo, Game Freak, Creatures, The Pokémon Company), ni mkxp-z y sus librerías dentro de `Pokemon Z.app`, que mantienen sus propias licencias. mkxp-z es GPLv2+, y como esta compilación incluye OpenSSL, el binario queda bajo GPLv3. Su código fuente está en <https://github.com/mkxp-z/mkxp-z>.
